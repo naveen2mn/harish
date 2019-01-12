@@ -1,0 +1,169 @@
+<html>
+<head>
+<link href="css/bootstrap.css" rel="stylesheet">
+<style>
+
+body {
+  background: rgb(204,204,204); 
+}
+page[size="A4"] {
+  background: white;
+  width: 21cm;
+  height: 30.7cm;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 0.5cm;
+  box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+      position: absolute;
+    left:20px;
+}
+@media print {
+  body, page[size="A4"] {
+    margin: 0;
+    box-shadow: 0;
+  }
+}
+.logo{
+    position: absolute;
+    top: -10px;
+    left: 0px;
+    background-image: url(img/logo.png);
+    width: 159px;
+    height: 130px;
+}
+.address {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 13px;
+    font-weight: bold;
+}
+.address  p{
+	margin-bottom : 5px;
+}
+.address p span{
+	margin-right: 8px;
+}
+.emp-detail {
+    position: absolute;
+    top: 160px;
+    left: 40px;
+    right: 40px;
+    font-size: 14px;
+    
+}
+.justify{
+    text-align: justify;
+    line-height: 1.5;
+}
+.bg{
+    height: 520px;
+    position: absolute;
+    bottom: 90px;
+    right: -29px;
+    opacity: 0.03;
+}
+.center-content {
+    justify-content: center;
+    display: flex;
+    font-size: 15px;
+    padding: 5px;
+    background-color: #862422;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    color: white;
+    font-family: sans-serif;
+    box-shadow: -1px -4px 12px 2px #a27776;
+}
+
+.sep {
+    border-right: 1px solid #ccc;
+    margin: 3px 10px;
+}
+li {
+    text-align: justify;
+    margin-bottom: 8px;
+}
+.glyphicon{
+color:#800a04;}
+.signature {
+    margin: 30px 40px;
+    text-align: right;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+}
+img.sign {
+        width: 99px;
+    position: absolute;
+    right: 35px;
+    margin: 5px 0;
+}
+</style>
+</head>
+<body>
+<page size="A4">
+	<img src="img/logo.png" class="logo"/>
+	<img src="img/logo2.png" class="bg"/>
+	<div class="pull-right address">
+	<p><span class="glyphicon glyphicon-earphone"></span> 995270499</p>
+	<p><span class="glyphicon glyphicon-phone-alt"></span> 044 495 164 25</span></p>
+	<p><span class="glyphicon glyphicon-envelope"></span> globelinfraengineers@gmail.com</span></p>
+	<p><span class="glyphicon glyphicon-globe"></span> www.globelinfra.co.in</span></p>
+	
+	<p><span class="glyphicon glyphicon-map-marker"></span> Plot-C, Silver Palm Avenue<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Aishwarya Nagar, West Extn,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Chennai - 600 095</span></p>
+	</div>
+	<div class="emp-detail">
+		<p>Ref. F.No.Staff/01/2018</p>
+		<br>
+		<p>04-Jun-2018<br>Chennai</p>
+		<br>
+		<p>Mr. S Harish Kumar<br>
+		No 39/17, Raj sapthagiri Aprtments,<br>
+		Thiruvalluvar street,<br>
+		New Perungalathur, Chennai.
+		</p>
+		<br>
+		<p class="justify">
+		With reference to your application and subsequent interview with us we have to share in increasing you as a site engineer on probation for 3 months at the end of the above period depending on the requirement of the company there will be a review on the confirmation of employment will be recited by mutual consent
+		</p>
+		<ul>
+			<li>The salary and benefits payable during the period of your profession or detailed below</li>
+			<li>Salary Rs 8000/- during probation and Rs 2000 as site expense per month will be payable</li>
+			<li>You will be performed, observe and confirm to such duties, directions and instructions assigned or communicated to you by the firm and those in authority over you </li>
+			<li>You will not without previous  written permission, carry on any business or enter the any part of your time, in any capacity in in the service of, or be employed by other firm, company or person You will devote your whole time and attention to your duties to promote the interests of organisation.</li>
+			<li>If at any time in our opinion which is finally in this matter you are found guilty of dishonesty, disobedient, disorderly behaviour, negligence, indiscipline, obsence from duty without permission of if any other contact considered by us detrimental to our interests of violation of one or more terms of this letter your service may be terminated without notice </li>
+			<li>You will keep us informed any change in your residential address </li>
+			<li>Your service with the company after probation can be terminated at any time without assigning any reason, by giving on month notice in writing by either party. </li>
+			<li>You will be posted anywhere in Tamilnadu. The place and Site of posting will be considered after joining at our office.</li>
+			
+			<div class="signature">
+				<p>Yours Faithfully,</p> 
+				<img src="img/sign.png" class="sign" />
+				<br>
+				<p>GLOBE INFRA</p>
+			</div>
+
+
+		</p>
+		</div>
+		
+		<div class="center-content">
+		<!--<img src="img/ban.png" class="ban" />
+		-->
+			<div>Design</div>
+			<div class="sep"></div>
+			<div>Construction</div>
+			<div class="sep"></div>
+			<div>Interiors</div>
+			<div class="sep"></div>
+			<div>Renovation</div>
+			<div class="sep"></div>
+			<div>Landscape &amp; Road Works</div>
+		
+</div>
+</page>
+</body>
+</html>
